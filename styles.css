@@ -504,6 +504,10 @@ header {
   .work h2 {
     margin-top: 7.86rem;
   }
+
+  .project-info-container {
+    gap: 0.5rem;
+  }
   .nav-items {
     top: 7rem;
   }

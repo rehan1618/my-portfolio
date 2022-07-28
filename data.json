@@ -1,0 +1,20 @@
+[
+  {
+    "title": "TinDog",
+    "desc": "A simple ui for an app to find a match for your dog.",
+    "img": "images/projects/tindog-img.png",
+    "link": "https://tindog-main.netlify.app/"
+  },
+  {
+    "title": "SunnySide",
+    "desc": "Landing page for sunnyside creative agency.",
+    "img": "images/projects/sunnyside-landing.png",
+    "link": "https://sunnyside-creative-agency-main.netlify.app/"
+  },
+  {
+    "title": "Sneakers",
+    "desc": "E commerce website for sneakers with state management using redux toolkit and material ui based components.",
+    "img": "images/projects/sneakers-img.png",
+    "link": "https://sneakers-online-shop.netlify.app/"
+  }
+]

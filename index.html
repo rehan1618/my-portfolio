@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Portfolio - Mohammad Rehan</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="name">Mohammad Rehan</h1>
+      <nav class="navbar">
+        <ul class="nav-items">
+          <li class="nav-item">
+            <a href="#hero" class="nav-btn btn">
+              <i class="fa-solid fa-house"></i>
+              Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-btn btn">
+              <i class="fa-solid fa-user"></i>
+              About Me</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#work" class="nav-btn btn">
+              <i class="fa-solid fa-laptop-file"></i>
+              My Work</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-btn btn">
+              <i class="fa-solid fa-envelope"></i>
+              Contact</a
+            >
+          </li>
+        </ul>
+        <div id="burger-menu" class="burger-menu-container">
+          <i class="fa-solid fa-bars fa-3x"></i>
+        </div>
+      </nav>
+    </header>
+    <section id="hero" class="hero">
+      <div class="hero-info-container">
+        <h3 class="sub-title">frontend web developer</h3>
+        <h1 class="main-heading">I Create Vibrant Websites</h1>
+        <a
+          href="#work"
+          class="btn-hero centered-elements btn btn-shadow btn-transform"
+        >
+          My Work
+          <i class="fa-solid fa-laptop-file fa-1x"></i>
+        </a>
+      </div>
+      <div class="hero-img-container">
+        <img src="images/Freelancer.svg" alt="hero image" class="hero-img" />
+      </div>
+    </section>
+    <section id="about" class="about centered-elements">
+      <div class="about-container">
+        <h2 class="title">About Me</h2>
+        <div class="name-subheading-container">
+          <h1 class="name">Mohammad Rehan</h1>
+          <h3 class="subheading">frontend web developer</h3>
+        </div>
+        <p class="info">
+          I am frontend web developer and I like designing beautiful looking
+          functional and responsive websites. I have sufficient knowledged of
+          MERN Stack as well.
+        </p>
+        <button type="button" class="btn-about btn btn-shadow btn-transform">
+          <i class="fa-solid fa-circle-arrow-down"></i>
+          Resume
+        </button>
+      </div>
+    </section>
+    <section id="work" class="work centered-elements">
+      <h2 class="title">My Work</h2>
+      <div class="work-card-container"></div>
+      <div class="navigator-container">
+        <i class="fa-solid fa-circle-left fa-3x"></i>
+        <i class="fa-solid fa-circle-right fa-3x"></i>
+      </div>
+    </section>
+    <section id="contact" class="contact centered-elements">
+      <div class="contact-container">
+        <div class="contact-img-container">
+          <img
+            src="images/contact.svg"
+            alt="contact image"
+            class="contact-img"
+          />
+        </div>
+        <span class="divider"></span>
+        <div class="contact-info-container">
+          <h2 class="title">Contact</h2>
+          <div class="email-container">
+            <h3 class="label">
+              <img
+                src="images/gmail.svg"
+                alt="email icon"
+                class="contact-icon"
+              />
+              Email:
+            </h3>
+            <p class="contacts">rehanm1618@gmail.com</p>
+          </div>
+          <div class="email-container">
+            <h3 class="label">
+              <img
+                src="images/phone.svg"
+                alt="phone icon"
+                class="contact-icon"
+              />
+              Phone:
+            </h3>
+            <p class="contacts">+91-952-907-2038</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <p class="copyright">copyright © Mohammad Rehan 2021</p>
+    </footer>
+    <script src="app.js" type="module"></script>
+  </body>
+</html>

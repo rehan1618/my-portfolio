@@ -478,3 +478,36 @@ header {
     width: 27rem;
   }
 }
+
+@media screen and (max-width: 376px) {
+  html {
+    scroll-snap-type: none;
+  }
+  body {
+    grid-template-rows: 8.24rem repeat(4, 100vh);
+  }
+
+  section {
+    scroll-snap-align: none;
+  }
+  header {
+    top: 0%;
+  }
+  .nav-items {
+    top: 7rem;
+  }
+  .name {
+    font-size: 2.5rem;
+  }
+  .contact-container {
+    grid-template-rows: 1fr 0.1fr 2.5fr;
+    grid-template-columns: 1fr;
+    height: 77%;
+  }
+  .contact-img-container {
+    width: 20rem;
+  }
+  .contact {
+    align-items: center;
+  }
+}

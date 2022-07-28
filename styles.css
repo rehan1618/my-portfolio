@@ -493,6 +493,12 @@ header {
   header {
     top: 0%;
   }
+  .work {
+    justify-content: flex-end;
+  }
+  .work h2 {
+    margin-top: 7.36rem;
+  }
   .nav-items {
     top: 7rem;
   }

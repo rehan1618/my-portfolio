@@ -493,11 +493,16 @@ header {
   header {
     top: 0%;
   }
+  .work-card-container {
+    width: 35rem;
+    height: 43.97rem;
+  }
   .work {
     justify-content: flex-end;
+    gap: 1rem;
   }
   .work h2 {
-    margin-top: 8.36rem;
+    margin-top: 7.86rem;
   }
   .nav-items {
     top: 7rem;
